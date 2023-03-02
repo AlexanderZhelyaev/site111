@@ -1,0 +1,22 @@
+/* для мобильной версии до 576*/
+@media (max-width: 576px){
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .btn-cta{
+        color: #fff;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 7px 12px;
+        height: 40px;
+        line-height: 40px;
+        font-style: 1.1rem;
+        margin-top: 1.4rem;
+        width: 90%;
+        margin: 0 auto;
+        min-width: 334px;
+        }
+}

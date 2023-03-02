@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #09606B;
+}
+body{
+  font-family: "Roboto Condensed" , Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height:24px;
+  color: #d6d6d6;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+/* header */
+.header{
+    background: lightgrey;    
+}
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu li {
+    margin: 0 0.4vw;
+}
+.header-inner a{
+    color: #000;
+    font-size: 24px;
+    font-family: "Roboto Condensed" , Arial, Helvetica, sans-serif;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+.hamb-menu{
+    display: none;
+}
+
+/* promo */
+
+.promo{
+    background: #fff url(3R5A7970\ 1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 680px;
+}
+.promo-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 30px;
+}
+.promo h1{
+    color: #fff;
+    /* position: absolute;
+    width: 618px;
+    height: 133px;
+    left: 62px;
+    top: 86px; */
+
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 64px;
+    letter-spacing: 0.08em;
+}
+.promo h3{
+    color: #fff;
+    /* position: absolute;
+    width: 472px;
+    height: 105px;
+    left: 62px;
+    top: 314px; */
+
+/* H3/22 */
+
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.08em;
+}
+.btn-cta{
+    color: #fff;
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 7px 12px;
+
+/* position: absolute;
+width: 313px;
+height: 37.9px;
+left: 62px;
+top: 447px; */
+
+background: #3E6A5F;
+border-radius: 14px;
+}
